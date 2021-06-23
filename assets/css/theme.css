@@ -5248,7 +5248,9 @@ panorama-slider2
   width: 200px;
   height: 16vmin;
   padding-right: 30px;
-  padding-top: 5vmin;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .panorama-slider2__footer-link {
