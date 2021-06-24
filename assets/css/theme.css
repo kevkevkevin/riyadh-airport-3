@@ -8,9 +8,10 @@
 }
 
 #title__main {
-  font-size: 3.2rem !important;
-  font-weight: bold !important;
-  line-height: 4.4rem !important;
+  font-size: 4.5rem !important;
+  font-weight: 900 !important;
+  line-height: 5rem !important;
+  text-transform: uppercase;
 }
 
 a#subtitle__main {
@@ -5267,8 +5268,8 @@ panorama-slider2
 }
 
 .panorama-slider2__footer-menu {
-  min-width: 68%;
-  width: 68vmin;
+  min-width: 55%;
+    width: 60vmin;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
