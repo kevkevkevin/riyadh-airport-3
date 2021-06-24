@@ -1,4 +1,39 @@
+@font-face { 
+  font-family: 'mainFont'; 
+  src: url('../fonts/Frutiger_ar.ttf'); 
+} 
+
 .table td, .table th {
+  color: #fff !important;
+}
+
+#title__main {
+  font-size: 3.2rem !important;
+  font-weight: bold !important;
+  line-height: 4.4rem !important;
+}
+
+a#subtitle__main {
+  font-family: 'mainFont';
+  font-size: 1.2rem !important;
+}
+
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.button__ a {
+  padding: 15px 40px;
+  background-color: #0074c9 !important;
+  transition: all 0.3s;
+}
+
+.button__ a:hover {
+  background-color: #07a7e3 !important;
+  border: none !important;
   color: #fff !important;
 }
 /* 
@@ -107,7 +142,9 @@ optimize styles
   font: inherit;
   box-sizing: border-box;
 }
-
+p,span,h1,h2,h3,h4,h5,a {
+  font-family: 'mainFont', sans-serif;
+}
 article,
 aside,
 details,
@@ -142,7 +179,7 @@ template {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'mainFont', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -307,7 +344,7 @@ base styles
 */
 
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'mainFont', sans-serif;
   font-weight: 400;
   line-height: 1.714285714285714;
   font-size: 14px;
@@ -1599,7 +1636,7 @@ featured-block
 .featured-block__item {
   display: -ms-flexbox;
   display: flex;
-  width: 25%;
+  width: 50%;
   padding: 0 22px;
   margin-bottom: 44px;
 }
@@ -5712,7 +5749,7 @@ project-block
 }
 
 .project-block__title {
-  font-family: 'Teko', Helvetica, sans-serif;
+  font-family: 'mainFont', Helvetica, sans-serif;
   font-size: 46px;
   line-height: 1.043478260869565;
   margin-bottom: 124px;
